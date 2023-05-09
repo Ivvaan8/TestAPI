@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3737B7A52A0AEBA6001091BF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737B7A42A0AEBA6001091BF /* NetworkManager.swift */; };
 		37CEE78E2A0705B200A061F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEE78D2A0705B200A061F3 /* AppDelegate.swift */; };
 		37CEE7902A0705B200A061F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEE78F2A0705B200A061F3 /* SceneDelegate.swift */; };
 		37CEE7922A0705B200A061F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEE7912A0705B200A061F3 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3737B7A42A0AEBA6001091BF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		37CEE78A2A0705B200A061F3 /* TestAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CEE78D2A0705B200A061F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37CEE78F2A0705B200A061F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3737B7A32A0AEB7F001091BF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3737B7A42A0AEBA6001091BF /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		37CEE7812A0705B200A061F3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		37CEE78C2A0705B200A061F3 /* TestAPI */ = {
 			isa = PBXGroup;
 			children = (
+				3737B7A32A0AEB7F001091BF /* Services */,
 				37CEE7A32A0709E100A061F3 /* App */,
 				37CEE7A42A070A0900A061F3 /* Storyboards */,
 				37CEE7A62A070A2900A061F3 /* ViewControllers */,
@@ -175,6 +186,7 @@
 			files = (
 				37CEE7922A0705B200A061F3 /* ViewController.swift in Sources */,
 				37CEE7A22A0705DF00A061F3 /* Employee.swift in Sources */,
+				3737B7A52A0AEBA6001091BF /* NetworkManager.swift in Sources */,
 				37CEE78E2A0705B200A061F3 /* AppDelegate.swift in Sources */,
 				37CEE7902A0705B200A061F3 /* SceneDelegate.swift in Sources */,
 			);
